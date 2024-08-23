@@ -9,7 +9,7 @@
   - wolf.dev.page.
 - type: AA
   values:
-  - 192.168.1.1
+  - 192.168.1.3
   - 192.168.1.2
 - type: MX
   values:
