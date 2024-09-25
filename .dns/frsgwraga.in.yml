@@ -1,0 +1,11 @@
+'@':
+- type: SOA
+  values: bison.dev.page. hostmaster.frsgwraga.in. 2024092501 10800 3600 604800 3600
+- type: NS
+  values:
+  - bison.dev.page.
+  - lynx.dev.page.
+  - stork.dev.page.
+  - wolf.dev.page.
+- type: TXT
+  values: dupaaa
