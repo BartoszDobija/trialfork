@@ -4,8 +4,7 @@
 - type: NS
   values:
   - bison.dev.page.
-  - lynx.dev.page.
-  - stork.dev.page.
-  - wolf.dev.page.
+  - mamut.dev.page.
+  - deezon.dev.page.
 - type: TXT
-  values: working?
+  values: working? co jest
