@@ -4,7 +4,12 @@
 - type: NS
   values:
   - bison.dev.page.
-  - mamut.dev.page.
-  - deezon.dev.page.
+  - somet.dev.page.
+  - linux.dev.page.
 - type: TXT
-  values: working? co jest
+  values: working???????????????/
+dupa:
+- type: A
+  values: 192.168.0.1
+- type: TXT
+  values: testing is working?
