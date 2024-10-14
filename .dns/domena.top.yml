@@ -1,0 +1,13 @@
+'@':
+- type: SOA
+  values: bison.dev.page. hostmaster.domena.top. 2024101401 10800 3600 604800 3600
+- type: NS
+  values:
+  - bison.dev.page.
+  - lynx.dev.page.
+  - stork.dev.page.
+  - wolf.dev.page.
+- type: A
+  values: 1.1.1.1
+- type: TXT
+  values: test from yaml editor ro
