@@ -1,0 +1,171 @@
+'@':
+- type: SOA
+  values: bison.dev.page. hostmaster.testing.feedback. 2024082201 10800 3600 604800 3600
+- type: NS
+  values:
+  - bison.dev.page.
+  - lynx.dev.page.
+  - stork.dev.page.
+  - wolf.dev.page.
+- type: A
+  values:
+  - 192.168.1.1
+  - 192.168.1.2
+- type: MX
+  values:
+  - 10 mail1.example.comm.
+  - 20 mail2.example.com.
+- type: TXT
+  values:
+  - v=spf1 include:_spf.example.com ~all
+  - google-site-verification=abcdefghijklmnopqrstuvwxyz123456
+'*':
+- type: A
+  values: 192.168.0.1
+- type: TXT
+  values: wildcard-text-record
+_acme-challenge:
+- type: TXT
+  values: acme-challenge-verification-string
+_dmarc:
+- type: TXT
+  values: v=DMARC1; p=reject; rua=mailto:dmarc@example.com
+api:
+- type: A
+  values: 192.168.5.1
+- type: TXT
+  values: API endpoint
+backup:
+- type: A
+  values: 192.168.8.1
+- type: TXT
+  values: Backup server
+blog:
+- type: CNAME
+  values: blog.example.com.
+calendar:
+- type: CNAME
+  values: ghs.googlehosted.com.
+cdn:
+- type: CNAME
+  values: cdn.thirdparty.com.
+chat:
+- type: CNAME
+  values: ghs.googlehosted.com.
+database:
+- type: A
+  values: 192.168.7.1
+- type: TXT
+  values: Database server
+dev:
+- type: A
+  values:
+  - 192.168.3.1
+  - 192.168.3.2
+- type: TXT
+  values: Development environment
+docs:
+- type: CNAME
+  values: ghs.googlehosted.com.
+ftp:
+- type: CNAME
+  values: files.example.com.
+legacy:
+- type: A
+  values: 192.168.11.1
+- type: TXT
+  values: Legacy system - to be decommissioned
+mail:
+- type: A
+  values: 192.168.1.20
+- type: MX
+  values: 10 mail.example.com.
+meet:
+- type: CNAME
+  values: ghs.googlehosted.com.
+monitoring:
+- type: A
+  values: 192.168.10.1
+- type: TXT
+  values: Monitoring server
+staging:
+- type: A
+  values:
+  - 192.168.4.1
+  - 192.168.4.2
+- type: TXT
+  values: Staging environment
+test:
+- type: A
+  values: 192.168.2.1
+- type: TXT
+  values: This is a test record
+test1:
+- type: A
+  values: 192.168.12.1
+test2:
+- type: A
+  values: 192.168.12.2
+test3:
+- type: A
+  values: 192.168.12.3
+vpn:
+- type: A
+  values: 192.168.9.1
+- type: TXT
+  values: VPN endpoint
+www:
+- type: A
+  values:
+  - 192.168.1.10
+  - 192.168.1.11
+- type: AAAA
+  values:
+  - 2001:db8::1
+  - 2001:db8::2
+google._domainkey:
+- type: TXT
+  values: v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiLcY7WSmLNSG4FxFebrAhHa3r+bhQNFbDqLMj72HaMF/E64ZmHXGCGG7YXcpM0vitZQ/ql5lJTULpioMlZIWBqQDxH8DPlDj3TomMTEQXrNAXpWcpOwtecBTUPTBtHw3ffnFJwxCk4r5O6wGEVDpgXbYYhpMCyHZBoNUZprYK1Xp13X9DQRwULhQHXBFwvjrTCmpcKz2lP6tWGt9xhfzqWuojO4n4wxxEEI2sPCgLBSEApvP5oZkDXO3/wB8xN0gpaSGXhkfx0SUWXlD17jJOJBxIJGCzWf7ckGX9w==
+_sip._tcp:
+- type: SRV
+  values:
+  - 10 60 5060 sip1.example.com.
+  - 20 60 5060 sip2.example.com.
+_xmpp-server._tcp:
+- type: SRV
+  values:
+  - 10 60 5269 xmpp1.example.com.
+  - 20 60 5269 xmpp2.example.com.
+'*.app':
+- type: A
+  values: 192.168.6.1
+- type: TXT
+  values: Wildcard for app subdomains
+app1.app:
+- type: A
+  values:
+  - 192.168.6.10
+  - 192.168.6.11
+app2.app:
+- type: A
+  values:
+  - 192.168.6.20
+  - 192.168.6.21
+'*.dev':
+- type: A
+  values: 192.168.13.1
+- type: TXT
+  values: Wildcard for dev subdomains
+'*.production':
+- type: A
+  values: 192.168.15.1
+- type: TXT
+  values: Wildcard for production subdomains
+'*.staging':
+- type: A
+  values: 192.168.14.1
+- type: TXT
+  values: Wildcard for staging subdomains
+'*.test':
+- type: A
+  values: 192.168.12.100
