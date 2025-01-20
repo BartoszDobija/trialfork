@@ -1,0 +1,11 @@
+adfsfgsdfgadafad.com:
+  records:
+    '@':
+    - type: "SOA"
+      values: "bison.dev.page. hostmaster.adfsfgsdfgadafad.com. 2025012001 10800 3600 604800 3600"
+    - type: "NS"
+      values:
+      - "bison.qikdevns.net."
+      - "lynx.qikdevns.net."
+      - "stork.qikdevns.net."
+      - "wolf.qikdevns.net."
