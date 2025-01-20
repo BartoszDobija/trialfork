@@ -9,3 +9,6 @@ asifdhilwu.com:
       - "lynx.qikdevns.net."
       - "stork.qikdevns.net."
       - "wolf.qikdevns.net."
+    tunnell:
+    - type: "TXT"
+      values: "tester"
