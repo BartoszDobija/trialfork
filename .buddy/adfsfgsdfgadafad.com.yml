@@ -9,3 +9,5 @@ adfsfgsdfgadafad.com:
       - "lynx.qikdevns.net."
       - "stork.qikdevns.net."
       - "wolf.qikdevns.net."
+    - type: "TXT"
+      values: "test"
