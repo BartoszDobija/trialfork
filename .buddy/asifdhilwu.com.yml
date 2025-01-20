@@ -1,0 +1,14 @@
+asifdhilwu.com:
+  records:
+    '@':
+    - type: "SOA"
+      values: "bison.dev.page. hostmaster.asifdhilwu.com. 2025010701 10800 3600 604800 3600"
+    - type: "NS"
+      values:
+      - "bison.qikdevns.net."
+      - "lynx.qikdevns.net."
+      - "stork.qikdevns.net."
+      - "wolf.qikdevns.net."
+    tunnell:
+    - type: "TXT"
+      values: "tester"
