@@ -1,0 +1,6 @@
+- pipeline: another
+  refs:
+  - refs/heads/dev
+  events:
+  - type: WEBHOOK
+  fail_on_prepare_env_warning: true
